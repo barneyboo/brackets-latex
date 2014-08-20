@@ -1,6 +1,8 @@
 #LaTeX typesetting for Brackets
 This extension provides support for typestting documents in LaTeX within Brackets.
 
+Forked to add support for Sweave.
+
 ##Prerequisites
 * A working installation of the TeX typesetting system [See here for details](http://latex-project.org/)
 * Corresponding programs for viewing .pdf, .ps or .dvi files (depending on the output selected in the settings dialog).
