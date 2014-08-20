@@ -32,7 +32,7 @@ define(function (require, exports, module) {
         COMPILE_LATEX = "latex.compile",
         COMPILE_BIBTEX = "bibtex.compile",
         LATEX_SETTINGS = "brackets-latex.settings",
-        texRelateFiledExtensions = ["sty", "tex", "bib", "cls", "bbl"],
+        texRelateFiledExtensions = ["sty", "tex", "bib", "cls", "bbl", "Snw"],
         consoleStatus = {},
 		Strings = require("i18n!nls/strings"),
 		TEX_ROOT = "%!TEX root=";
@@ -157,7 +157,7 @@ define(function (require, exports, module) {
         LanguageManager.defineLanguage("latex", {
             name: "Latex",
             mode: ["stex", "text/x-stex"],
-            fileExtensions: ["tex", "bib", "cls"],
+            fileExtensions: ["tex", "bib", "cls", "Snw"],
             lineComment: ["%"]
         });
         

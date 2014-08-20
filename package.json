@@ -1,9 +1,9 @@
 {
     "name": "brackets-latex",
-    "author": "Patrick Oladimeji",
-    "version": "0.1.9",
+    "author": "Patrick Oladimeji, Luke Hutton",
+    "version": "0.1.10",
     "description": "Brackets extension that provides support for writing and compiling latex documents",
-    "homepage": "https://github.com/thehogfather/brackets-latex",
+    "homepage": "https://github.com/barneyboo/brackets-latex",
     "keywords": ["latex", "tex"],
     "categories": ["editing", "typesetting"],
     "engines":{
